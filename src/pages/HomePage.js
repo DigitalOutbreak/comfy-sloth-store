@@ -1,7 +1,16 @@
 import React from 'react';
 import { FeaturedProducts, Hero, Services, Contact } from '../components';
 const HomePage = () => {
-  return <h4>home page</h4>;
+  return (
+    <main>
+      <section>
+        <Hero />
+        <FeaturedProducts />
+        <Services />
+        <Contact />
+      </section>
+    </main>
+  );
 };
 
 export default HomePage;
